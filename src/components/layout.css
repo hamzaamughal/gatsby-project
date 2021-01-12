@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  font-family: "Roboto,sans-serif";
+}
+h1 {
+  text-transform: capitalize;
+}
+p {
+  line-height: 2;
+}
+.single-product {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 3rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .single-product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }
+}
